@@ -38,7 +38,7 @@ public class Interface {
     public static void main(String[] args) {
         System.out.println("=== Inheritance and Interface Demo ===\n");
         
-        Car myCar = new Car("Toyota", 120, 5);
+        Car myCar = new Car("Davidputra 9000X+", 120, 5);
         
         myCar.move();
         myCar.drive();
@@ -46,7 +46,7 @@ public class Interface {
         
         System.out.println("\n=== Polymorphism Examples ===");
         
-        Vehicle vehicle = new Car("Honda", 100, 4);
+        Vehicle vehicle = new Car("Lightning McQeen", 100, 4);
         vehicle.move();
         
         Drivable drivable = new Car("BMW", 180, 2);
